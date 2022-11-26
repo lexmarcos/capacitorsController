@@ -3,7 +3,7 @@ import React from "react";
 
 interface ICardOfValuesProps {
   title: string;
-  value: number;
+  value: number | string;
 }
 
 function CardOfValue({ title, value }: ICardOfValuesProps) {
